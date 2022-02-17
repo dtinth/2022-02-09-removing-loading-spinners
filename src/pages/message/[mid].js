@@ -21,7 +21,12 @@ function MessageView({ mid, loading }) {
   let { data } = useSWR(`/api/messages/${mid}`, { suspense: true });
 
   return (
-    <div style={{ opacity: loading ? 0.5 : 1 }}>
+    <div
+      style={{
+        opacity: loading ? 0.5 : 1,
+        transition: loading ? "opacity 0.1s 0.3s" : "none",
+      }}
+    >
       <h1 className="text-2xl font-bold">{data.message.title}</h1>
 
       <div className="mt-6 space-y-2 text-zinc-400">
