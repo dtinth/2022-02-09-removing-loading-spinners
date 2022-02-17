@@ -11,8 +11,8 @@
     "chance": "^1.1.8",
     "miragejs": "^0.1.43",
     "next": "^12.0.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0-rc.0-next-79ed5e18f-20220217",
+    "react-dom": "^18.0.0-rc.0-next-79ed5e18f-20220217",
     "react-error-boundary": "^3.1.4",
     "swr": "^1.2.1"
   },
